@@ -1,0 +1,41 @@
+# Node modules
+backend/node_modules/
+dashboard/node_modules/
+
+# Python virtual environments
+ml/.venv/
+venv/
+
+# Python cache (anywhere in project)
+**/__pycache__/
+*.pyc
+
+# Environment variables
+.env
+backend/.env
+
+# Logs
+logs/
+*.log
+
+# ML model files (optional if too large)
+*.pth
+*.onnx
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings (optional)
+.vscode/
+
+# Build folders
+dist/
+build/
+
+# Coverage
+coverage/
+
+# Temporary files
+tmp/
+temp/
