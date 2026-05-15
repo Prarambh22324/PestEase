@@ -1,0 +1,23 @@
+# FarmEase Rover — Raspberry Pi Python Dependencies
+# Install: pip install -r requirements_rpi.txt --break-system-packages
+
+# Serial comms with ESP32
+pyserial>=3.5
+
+# Camera (RPi Camera Module v2)
+# picamera2 is pre-installed on Raspberry Pi OS (Bullseye/Bookworm)
+# If missing: sudo apt install -y python3-picamera2
+
+# Image processing
+Pillow>=10.0.0
+opencv-python-headless>=4.8.0
+
+# HTTP calls to backend
+requests>=2.31.0
+
+# AI inference (local mode — skip on low-RAM boards)
+# tensorflow>=2.13.0    ← uncomment if running inference on RPi 4 (4GB+)
+# numpy>=1.24.0
+
+# Utilities
+python-dotenv>=1.0.0
